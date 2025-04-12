@@ -611,6 +611,9 @@ Improved TIFF image detection
 
 #define PROGNAME "paq8px"  // Please change this if you change the program.
 
+#define _CRT_SECURE_NO_WARNINGS
+#define NOASM
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
